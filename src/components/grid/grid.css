@@ -1,0 +1,26 @@
+.grid {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+table {
+    text-align: left;
+    border: 1px solid black;
+    margin: 0;
+}
+
+table tr {
+    text-align: center;
+}
+
+table tr td {
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+}
+
+table tr td.active {
+    background: black;
+}
